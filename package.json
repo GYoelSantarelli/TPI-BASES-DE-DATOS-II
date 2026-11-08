@@ -1,0 +1,38 @@
+{
+  "name": "tpi-bases-de-datos-ii",
+  "private": true,
+  "version": "0.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "tsc && vite build",
+    "preview": "vite preview",
+    "start": "npx ts-node src/index.ts"
+  },
+  "devDependencies": {
+    "@types/node": "^26.6.6",
+    "typescript": "~6.0.2",
+    "vite": "^8.3.0"
+  },
+  "description": "",
+  "main": "index.js",
+  "dependencies": {
+    "detect-libc": "^2.1.2",
+    "dotenv": "^18.0.9",
+    "fdir": "^6.5.0",
+    "lightningcss": "^1.33.0",
+    "lightningcss-win32-x64-msvc": "^1.33.0",
+    "mongodb": "^7.8.0",
+    "nanoid": "^3.3.19",
+    "picocolors": "^1.1.1",
+    "picomatch": "^4.0.7",
+    "postcss": "^8.5.28",
+    "rolldown": "^1.2.9",
+    "source-map-js": "^1.2.1",
+    "tinyglobby": "^0.2.17",
+    "undici-types": "^8.9.0"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}
